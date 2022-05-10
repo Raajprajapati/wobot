@@ -1,0 +1,8 @@
+@media screen and (max-width:1044px){
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    justify-self: flex-end;
+
+}
+footer a{
+    color: #545454;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+footer a:nth-child(1){
+    margin-right: 10px;
+    border-right: 1px solid #545454;
+    padding-right: 10px;
+}

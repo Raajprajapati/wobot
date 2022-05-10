@@ -1,0 +1,114 @@
+.signup{
+    max-width: 510px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 51px;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    background-color: rgba(255,255,255,1.0);
+    margin: auto;
+}
+.signup > *{
+    margin: 5px 0;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.header h2{
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.6rem;
+    margin: 24px 0px;
+}
+.header p{
+    font-size: 14px;
+}
+.inputfield {
+    width: 100%;
+}
+.inputfield form label{
+    margin-top: 15px;
+    font-size: 1.4rem;
+    height: auto;
+
+}
+.inputfield input,select{
+    border: 1px solid rgba(206,212,218,1.0);
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1.4rem;
+    background-color: rgb(255, 255, 255);
+}
+.inputfield form> *{
+    margin: 5px 0;
+    height: 37px;
+}
+.inputfield form{
+    display: flex;
+    flex-direction: column;
+}
+.company_size input{
+    display: none;
+}
+.company_size label{
+    padding: 4px 8px;
+    background-color: rgb(240,240,240);
+    border-radius: 2px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+.company_size_p{
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+    height: auto !important;
+}
+
+.company_size input[type="radio"]:checked+label {
+    background-color: rgb(55,102,232);
+    color: rgb(255, 255, 255);
+}
+
+select option{
+    font-size: 1.4rem;
+}
+
+button{
+    background-color: rgb(55,102,232);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin: 24px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(21, 79, 236);
+}
+button:active{
+    border: 1px solid rgb(1, 65, 138);
+}
+
+@media screen and (max-width:612px){
+    .signup{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    .company_size label{
+        margin: 4px !important;
+        padding: 2px 4px;
+    }
+    .company_size{
+        height: auto !important;
+    }
+    
+}
